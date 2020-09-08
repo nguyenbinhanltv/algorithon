@@ -47,20 +47,10 @@ export const runCompiler = (req, res) => {
   }
 
   try {
-    const langEntrys = LanguagesTable[body.lang];
-    const entry = _.find(langEntrys, body.version);
     const index = LanguagesManager.getLanguageVersionIndex(
       body.lang,
       body.version
     );
-
-    const runRequestBody = {
-      script: body.program,
-      language: body.lang,
-      versionIndex: index,
-      clientId: process.env.JDOODLE_CLIENT_ID,
-      clientSecret: process.env.JDOODLE_CLIENT_SECRET,
-    };
 
     RequestHandler.postRunRequest(body.lang, index, body.program)
       .on("error", (error) => {
