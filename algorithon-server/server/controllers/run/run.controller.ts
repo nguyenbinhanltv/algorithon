@@ -1,9 +1,7 @@
-import { LanguagesTable } from "../../util/languages/languages-table";
 import { LanguagesManager } from "../../util/languages/languages-manager";
 import { RequestHandler } from "../../util/jdoodle-request-handler/request-handler";
 
 import * as _ from "lodash";
-import * as request from "request";
 
 // your client request scheme
 type ClientRunRequestBody = {

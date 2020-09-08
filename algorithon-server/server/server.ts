@@ -30,3 +30,5 @@ const app = new ExpressApp().app;
 app.use(appRoutes);
 
 app.listen(PORT, () => console.log(`server running on port ${PORT}`));
+
+export { app }
