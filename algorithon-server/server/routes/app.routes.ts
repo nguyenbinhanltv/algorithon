@@ -4,6 +4,7 @@ import { Router } from 'express';
 import { usersRoutes } from './users/users.routes';
 import { itemsRoutes } from './items/items.routes';
 import { langsRoutes } from './languages/langs.routes';
+import { runRoutes } from './run/run.routes';
 
 class AppRoutes {
   public routes: Router;
@@ -16,9 +17,8 @@ class AppRoutes {
     this.routes.use('/users', usersRoutes);
     this.routes.use('/items', itemsRoutes);
     this.routes.use('/langs', langsRoutes);
-    // this.routes.use('/run',);
+    this.routes.use('/run', runRoutes);
   }
 }
 
-const appRoutes = new AppRoutes().routes;
-export { appRoutes };
+export const appRoutes = new AppRoutes().routes;
