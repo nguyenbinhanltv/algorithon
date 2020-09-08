@@ -12,6 +12,8 @@ class AppRoutes {
   private _init() {
     this.routes.use('/users', usersRoutes);
     this.routes.use('/items', itemsRoutes);
+    this.routes.use('/langs',);
+    this.routes.use('/run',);
   }
 }
 
