@@ -13,5 +13,4 @@ class ItemsRoutes {
   }
 }
 
-const itemsRoutes = new ItemsRoutes().routes;
-export { itemsRoutes }
+export const itemsRoutes = new ItemsRoutes().routes;

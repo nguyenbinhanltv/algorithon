@@ -1,5 +1,8 @@
 import { Router } from 'express';
 
+//Controller
+import { getLanguages } from '../../controllers/languages/langs.controller';
+
 class LangsRoutes {
   public routes: Router;
 
@@ -9,9 +12,8 @@ class LangsRoutes {
   }
 
   private _init() {
-    this.routes.get('/', (req, res) => { });
+    this.routes.get('/', getLanguages);
   }
 }
 
-const langsRoutes = new LangsRoutes().routes;
-export { langsRoutes }
+export const langsRoutes = new LangsRoutes().routes;

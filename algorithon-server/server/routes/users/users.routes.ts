@@ -15,5 +15,4 @@ class UsersRoutes {
   }
 }
 
-const usersRoutes = new UsersRoutes().routes;
-export { usersRoutes }
+export const usersRoutes = new UsersRoutes().routes;
