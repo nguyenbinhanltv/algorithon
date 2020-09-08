@@ -1,7 +1,4 @@
-import {
-  LanguagesMap,
-  LanguagesTable,
-} from "./languages-table.util";
+import { LanguagesMap, LanguagesTable } from "./languages-table";
 import { Language } from "../../models/languages/language.model";
 
 export class LanguagesManager {

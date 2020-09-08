@@ -1,4 +1,4 @@
-import { Router } from 'express';
+import { Router } from "express";
 
 class ItemsRoutes {
   public routes: Router;
@@ -9,7 +9,7 @@ class ItemsRoutes {
   }
 
   private _init() {
-    this.routes.get('/', (req, res) => { });
+    this.routes.get("/", (req, res) => {});
   }
 }
 

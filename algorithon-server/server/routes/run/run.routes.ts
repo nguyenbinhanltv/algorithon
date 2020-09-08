@@ -1,7 +1,7 @@
-import { Router } from 'express';
+import { Router } from "express";
 
 //Controller
-import { runCompiler } from '../../controllers/run/run.controller';
+import { runCompiler } from "../../controllers/run/run.controller";
 
 class RunRoutes {
   public routes: Router;
@@ -12,7 +12,7 @@ class RunRoutes {
   }
 
   private _init() {
-    this.routes.post('/', runCompiler);
+    this.routes.post("/", runCompiler);
   }
 }
 

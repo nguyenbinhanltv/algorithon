@@ -35,17 +35,35 @@ export const LanguagesTable: LanguageTable = [
   [
     "cpp14",
     [
-      { lang: "cpp14", name: "C++ 14", version: "g++ 14 GCC 5.3.0", index: "0" },
-      { lang: "cpp14", name: "C++ 14", version: "g++ 14 GCC 7.2.0", index: "1" },
-      { lang: "cpp14", name: "C++ 14", version: "g++ 14 GCC 8.1.0", index: "2" },
-      { lang: "cpp14", name: "C++ 14", version: "g++ 14 GCC 9.1.0", index: "3" },
+      {
+        lang: "cpp14",
+        name: "C++ 14",
+        version: "g++ 14 GCC 5.3.0",
+        index: "0",
+      },
+      {
+        lang: "cpp14",
+        name: "C++ 14",
+        version: "g++ 14 GCC 7.2.0",
+        index: "1",
+      },
+      {
+        lang: "cpp14",
+        name: "C++ 14",
+        version: "g++ 14 GCC 8.1.0",
+        index: "2",
+      },
+      {
+        lang: "cpp14",
+        name: "C++ 14",
+        version: "g++ 14 GCC 9.1.0",
+        index: "3",
+      },
     ],
   ],
   [
     "cpp17",
-    [
-      { lang: "cpp17", name: "C++ 17", version: "g++ 17 GCC 9.10", index: "0" },
-    ],
+    [{ lang: "cpp17", name: "C++ 17", version: "g++ 17 GCC 9.10", index: "0" }],
   ],
   [
     "php",
@@ -71,7 +89,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "nodejs", name: "NodeJS", version: "6.3.1", index: "0" },
       { lang: "nodejs", name: "NodeJS", version: "9.2.0", index: "1" },
       { lang: "nodejs", name: "NodeJS", version: "10.1.0", index: "2" },
-      { lang: "nodejs", name: "NodeJS", version: "12.11.1", index: "3" }
+      { lang: "nodejs", name: "NodeJS", version: "12.11.1", index: "3" },
     ],
   ],
   [
@@ -88,7 +106,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "python3", name: "Python 3", version: "3.5.1", index: "0" },
       { lang: "python3", name: "Python 3", version: "3.6.3", index: "1" },
       { lang: "python3", name: "Python 3", version: "3.6.5", index: "2" },
-      { lang: "python3", name: "Python 3", version: "3.7.4", index: "3" }
+      { lang: "python3", name: "Python 3", version: "3.7.4", index: "3" },
     ],
   ],
   [
@@ -97,7 +115,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "ruby", name: "Ruby", version: "2.2.4", index: "0" },
       { lang: "ruby", name: "Ruby", version: "2.4.2p198", index: "1" },
       { lang: "ruby", name: "Ruby", version: "2.5.1p57", index: "2" },
-      { lang: "ruby", name: "Ruby", version: "2.6.5", index: "3" }
+      { lang: "ruby", name: "Ruby", version: "2.6.5", index: "3" },
     ],
   ],
   [
@@ -106,7 +124,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "go", name: "GO Lang", version: "1.5.2", index: "0" },
       { lang: "go", name: "GO Lang", version: "1.9.2", index: "1" },
       { lang: "go", name: "GO Lang", version: "1.10.2", index: "2" },
-      { lang: "go", name: "GO Lang", version: "1.13.1", index: "3" }
+      { lang: "go", name: "GO Lang", version: "1.13.1", index: "3" },
     ],
   ],
   [
@@ -115,7 +133,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "scala", name: "Scala", version: "2.12.0", index: "0" },
       { lang: "scala", name: "Scala", version: "2.12.4", index: "1" },
       { lang: "scala", name: "Scala", version: "2.12.5", index: "2" },
-      { lang: "scala", name: "Scala", version: "2.13.0", index: "3" }
+      { lang: "scala", name: "Scala", version: "2.13.0", index: "3" },
     ],
   ],
   [
@@ -124,7 +142,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "bash", name: "Bash Shell", version: "4.3.42", index: "0" },
       { lang: "bash", name: "Bash Shell", version: "4.4.12", index: "1" },
       { lang: "bash", name: "Bash Shell", version: "4.4.19", index: "2" },
-      { lang: "bash", name: "Bash Shell", version: "5.0.011", index: "3" }
+      { lang: "bash", name: "Bash Shell", version: "5.0.011", index: "3" },
     ],
   ],
   [
@@ -133,7 +151,7 @@ export const LanguagesTable: LanguageTable = [
       { lang: "sql", name: "SQL", version: "SQLite 3.9.2", index: "0" },
       { lang: "sql", name: "SQL", version: "SQLite 3.21.0", index: "1" },
       { lang: "sql", name: "SQL", version: "SQLite 3.23.1", index: "2" },
-      { lang: "sql", name: "SQL", version: "SQLite 3.29.0", index: "3" }
+      { lang: "sql", name: "SQL", version: "SQLite 3.29.0", index: "3" },
     ],
   ],
   [
@@ -192,10 +210,30 @@ export const LanguagesTable: LanguageTable = [
   [
     "groovy",
     [
-      { lang: "groovy", name: "Groovy", version: "2.4.6 JVM: 1.7.0_99", index: "0" },
-      { lang: "groovy", name: "Groovy", version: "2.4.12 JVM: 9.0.1", index: "1" },
-      { lang: "groovy", name: "Groovy", version: "2.4.15 JVM: 10.0.1", index: "2" },
-      { lang: "groovy", name: "Groovy", version: "2.5.8 JVM: 11.0.4", index: "3" },
+      {
+        lang: "groovy",
+        name: "Groovy",
+        version: "2.4.6 JVM: 1.7.0_99",
+        index: "0",
+      },
+      {
+        lang: "groovy",
+        name: "Groovy",
+        version: "2.4.12 JVM: 9.0.1",
+        index: "1",
+      },
+      {
+        lang: "groovy",
+        name: "Groovy",
+        version: "2.4.15 JVM: 10.0.1",
+        index: "2",
+      },
+      {
+        lang: "groovy",
+        name: "Groovy",
+        version: "2.5.8 JVM: 11.0.4",
+        index: "3",
+      },
     ],
   ],
   [
@@ -209,9 +247,7 @@ export const LanguagesTable: LanguageTable = [
   ],
   [
     "brainfuck",
-    [
-      { lang: "brainfuck", name: "Brainfuck", version: "bfc-0.1", index: "0" },
-    ],
+    [{ lang: "brainfuck", name: "Brainfuck", version: "bfc-0.1", index: "0" }],
   ],
   [
     "lua",
@@ -232,9 +268,7 @@ export const LanguagesTable: LanguageTable = [
   ],
   [
     "hack",
-    [
-      { lang: "hack", name: "Hack", version: "HipHop VM 3.13.0", index: "0" },
-    ],
+    [{ lang: "hack", name: "Hack", version: "HipHop VM 3.13.0", index: "0" }],
   ],
   [
     "rust",
@@ -248,7 +282,12 @@ export const LanguagesTable: LanguageTable = [
   [
     "d",
     [
-      { lang: "d", name: "D", version: "DMD64 D Compiler v2.071.1", index: "0" },
+      {
+        lang: "d",
+        name: "D",
+        version: "DMD64 D Compiler v2.071.1",
+        index: "0",
+      },
       { lang: "d", name: "D", version: "DMD64 D Compiler  v2.088", index: "1" },
     ],
   ],
@@ -327,15 +366,23 @@ export const LanguagesTable: LanguageTable = [
   ],
   [
     "forth",
-    [
-      { lang: "forth", name: "Forth", version: "gforth 0.7.3", index: "0" },
-    ],
+    [{ lang: "forth", name: "Forth", version: "gforth 0.7.3", index: "0" }],
   ],
   [
     "prolog",
     [
-      { lang: "prolog", name: "Prolog", version: "GNU Prolog 1.4.4", index: "0" },
-      { lang: "prolog", name: "Prolog", version: "GNU Prolog 1.4.5", index: "1" },
+      {
+        lang: "prolog",
+        name: "Prolog",
+        version: "GNU Prolog 1.4.4",
+        index: "0",
+      },
+      {
+        lang: "prolog",
+        name: "Prolog",
+        version: "GNU Prolog 1.4.5",
+        index: "1",
+      },
     ],
   ],
   [
@@ -350,10 +397,30 @@ export const LanguagesTable: LanguageTable = [
   [
     "coffeescript",
     [
-      { lang: "coffeescript", name: "CoffeeScript", version: "1.11.1", index: "0" },
-      { lang: "coffeescript", name: "CoffeeScript", version: "2.0.0", index: "1" },
-      { lang: "coffeescript", name: "CoffeeScript", version: "2.3.0", index: "2" },
-      { lang: "coffeescript", name: "CoffeeScript", version: "2.4.1", index: "3" },
+      {
+        lang: "coffeescript",
+        name: "CoffeeScript",
+        version: "1.11.1",
+        index: "0",
+      },
+      {
+        lang: "coffeescript",
+        name: "CoffeeScript",
+        version: "2.0.0",
+        index: "1",
+      },
+      {
+        lang: "coffeescript",
+        name: "CoffeeScript",
+        version: "2.3.0",
+        index: "2",
+      },
+      {
+        lang: "coffeescript",
+        name: "CoffeeScript",
+        version: "2.4.1",
+        index: "3",
+      },
     ],
   ],
   [
@@ -373,31 +440,62 @@ export const LanguagesTable: LanguageTable = [
   [
     "nasm",
     [
-      { lang: "nasm", name: "Assembler - NASM", version: "2.11.08", index: "0" },
-      { lang: "nasm", name: "Assembler - NASM", version: "2.13.01", index: "1" },
-      { lang: "nasm", name: "Assembler - NASM", version: "2.13.03", index: "2" },
-      { lang: "nasm", name: "Assembler - NASM", version: "2.14.02", index: "3" },
+      {
+        lang: "nasm",
+        name: "Assembler - NASM",
+        version: "2.11.08",
+        index: "0",
+      },
+      {
+        lang: "nasm",
+        name: "Assembler - NASM",
+        version: "2.13.01",
+        index: "1",
+      },
+      {
+        lang: "nasm",
+        name: "Assembler - NASM",
+        version: "2.13.03",
+        index: "2",
+      },
+      {
+        lang: "nasm",
+        name: "Assembler - NASM",
+        version: "2.14.02",
+        index: "3",
+      },
     ],
   ],
   [
     "gccasm",
     [
-      { lang: "gccasm", name: "Assembler - GCC", version: "GCC 6.2.1", index: "0" },
-      { lang: "gccasm", name: "Assembler - GCC", version: "GCC 8.1.0", index: "1" },
-      { lang: "gccasm", name: "Assembler - GCC", version: "GCC 9.1.0", index: "2" },
+      {
+        lang: "gccasm",
+        name: "Assembler - GCC",
+        version: "GCC 6.2.1",
+        index: "0",
+      },
+      {
+        lang: "gccasm",
+        name: "Assembler - GCC",
+        version: "GCC 8.1.0",
+        index: "1",
+      },
+      {
+        lang: "gccasm",
+        name: "Assembler - GCC",
+        version: "GCC 9.1.0",
+        index: "2",
+      },
     ],
   ],
   [
     "intercal",
-    [
-      { lang: "intercal", name: "Intercal", version: "0.30", index: "0" },
-    ],
+    [{ lang: "intercal", name: "Intercal", version: "0.30", index: "0" }],
   ],
   [
     "nemerle",
-    [
-      { lang: "nemerle", name: "Nemerle", version: "1.2.0.507", index: "0" },
-    ],
+    [{ lang: "nemerle", name: "Nemerle", version: "1.2.0.507", index: "0" }],
   ],
   [
     "ocaml",
@@ -408,9 +506,7 @@ export const LanguagesTable: LanguageTable = [
   ],
   [
     "unlambda",
-    [
-      { lang: "unlambda", name: "Unlambda", version: "0.1.3", index: "0" },
-    ],
+    [{ lang: "unlambda", name: "Unlambda", version: "0.1.3", index: "0" }],
   ],
   [
     "picolisp",
@@ -425,7 +521,12 @@ export const LanguagesTable: LanguageTable = [
     "spidermonkey",
     [
       { lang: "spidermonkey", name: "SpiderMonkey", version: "38", index: "0" },
-      { lang: "spidermonkey", name: "SpiderMonkey", version: "45.0.2", index: "1" },
+      {
+        lang: "spidermonkey",
+        name: "SpiderMonkey",
+        version: "45.0.2",
+        index: "1",
+      },
     ],
   ],
   [
@@ -445,10 +546,30 @@ export const LanguagesTable: LanguageTable = [
   [
     "clisp",
     [
-      { lang: "clisp", name: "CLISP", version: "GNU CLISP 2.49 - GNU C 5.2.0", index: "0" },
-      { lang: "clisp", name: "CLISP", version: "GNU CLISP 2.49 - GNU C 6.2.1", index: "1" },
-      { lang: "clisp", name: "CLISP", version: "GNU CLISP 2.49.93 - GNU 8.1.0", index: "2" },
-      { lang: "clisp", name: "CLISP", version: "GNU CLISP 2.49.93 - GNU 9.1.0", index: "3" },
+      {
+        lang: "clisp",
+        name: "CLISP",
+        version: "GNU CLISP 2.49 - GNU C 5.2.0",
+        index: "0",
+      },
+      {
+        lang: "clisp",
+        name: "CLISP",
+        version: "GNU CLISP 2.49 - GNU C 6.2.1",
+        index: "1",
+      },
+      {
+        lang: "clisp",
+        name: "CLISP",
+        version: "GNU CLISP 2.49.93 - GNU 8.1.0",
+        index: "2",
+      },
+      {
+        lang: "clisp",
+        name: "CLISP",
+        version: "GNU CLISP 2.49.93 - GNU 9.1.0",
+        index: "3",
+      },
     ],
   ],
   [
@@ -472,14 +593,17 @@ export const LanguagesTable: LanguageTable = [
   [
     "falcon",
     [
-      { lang: "falcon", name: "Falcon", version: "0.9.6.8 (Chimera)", index: "0" },
+      {
+        lang: "falcon",
+        name: "Falcon",
+        version: "0.9.6.8 (Chimera)",
+        index: "0",
+      },
     ],
   ],
   [
     "fantom",
-    [
-      { lang: "fantom", name: "Fantom", version: "1.0.69", index: "0" },
-    ],
+    [{ lang: "fantom", name: "Fantom", version: "1.0.69", index: "0" }],
   ],
   [
     "nim",
@@ -499,20 +623,28 @@ export const LanguagesTable: LanguageTable = [
   [
     "smalltalk",
     [
-      { lang: "smalltalk", name: "SmallTalk", version: "GNU SmallTalk 3.2.92", index: "0" },
+      {
+        lang: "smalltalk",
+        name: "SmallTalk",
+        version: "GNU SmallTalk 3.2.92",
+        index: "0",
+      },
     ],
   ],
   [
     "mozart",
     [
-      { lang: "mozart", name: "OZ Mozart", version: "2.0.0 (OZ 3)", index: "0" },
+      {
+        lang: "mozart",
+        name: "OZ Mozart",
+        version: "2.0.0 (OZ 3)",
+        index: "0",
+      },
     ],
   ],
   [
     "lolcode",
-    [
-      { lang: "lolcode", name: "LOLCODE", version: "0.10.5", index: "0" },
-    ],
+    [{ lang: "lolcode", name: "LOLCODE", version: "0.10.5", index: "0" }],
   ],
   [
     "racket",
@@ -525,27 +657,30 @@ export const LanguagesTable: LanguageTable = [
   [
     "kotlin",
     [
-      { lang: "kotlin", name: "Kotlin", version: "1.1.51 (JRE 9.0.1+11)", index: "0" },
-      { lang: "kotlin", name: "Kotlin", version: "1.2.40 (JRE 10.0.1)", index: "1" },
-      { lang: "kotlin", name: "Kotlin", version: "1.3.50 (JRE 11.0.4)", index: "2" },
+      {
+        lang: "kotlin",
+        name: "Kotlin",
+        version: "1.1.51 (JRE 9.0.1+11)",
+        index: "0",
+      },
+      {
+        lang: "kotlin",
+        name: "Kotlin",
+        version: "1.2.40 (JRE 10.0.1)",
+        index: "1",
+      },
+      {
+        lang: "kotlin",
+        name: "Kotlin",
+        version: "1.3.50 (JRE 11.0.4)",
+        index: "2",
+      },
     ],
   ],
   [
     "whitespace",
-    [
-      { lang: "whitespace", name: "Whitespace", version: "0.3", index: "0" },
-    ],
+    [{ lang: "whitespace", name: "Whitespace", version: "0.3", index: "0" }],
   ],
-  [
-    "erlang",
-    [
-      { lang: "erlang", name: "Erlang", version: "22.1", index: "0" },
-    ],
-  ],
-  [
-    "jlang",
-    [
-      { lang: "jlang", name: "J", version: "9.01.10", index: "0" },
-    ],
-  ],
+  ["erlang", [{ lang: "erlang", name: "Erlang", version: "22.1", index: "0" }]],
+  ["jlang", [{ lang: "jlang", name: "J", version: "9.01.10", index: "0" }]],
 ];
