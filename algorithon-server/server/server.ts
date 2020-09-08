@@ -15,6 +15,7 @@ class ExpressApp {
 
   constructor() {
     this.app = express();
+    this._init();
   }
 
   private _init() {
