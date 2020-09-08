@@ -1,4 +1,5 @@
 import { LanguagesTable } from '../../util/languages/languages-table.util';
+import { LanguagesManager } from '../../util/languages/languages-manager.util';
 import * as _ from 'lodash';
 import * as request from 'request';
 
@@ -24,8 +25,7 @@ const validatePostRun = (reqBody: ClientRunRequestBody): boolean => {
       && _.isString(reqBody.program) // must be a string
       && !_.isEqual(reqBody.program, '') // program must not be as empty string
       // are lang & version supported ?
-      && LanguagesTable[reqBody.lang]
-      && _.some(LanguagesTable[reqBody.lang], reqBody.version);
+      && LanguagesManager.isLangSupported(reqBody.lang, reqBody.version)
 }
 
 export const runCompiler = (req, res) => {
@@ -41,7 +41,7 @@ export const runCompiler = (req, res) => {
   try {
     const langEntrys = LanguagesTable[body.lang];
     const entry = _.find(langEntrys, body.version);
-    const { index } = entry;
+    const index = LanguagesManager.getLanguageVersionIndex(body.lang, body.version);
 
     const runRequestBody = {
       script: body.program,
