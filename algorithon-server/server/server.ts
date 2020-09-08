@@ -2,8 +2,12 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as cors from 'cors';
 
+//Config
+import './config/config.ts';
+
 //Routes
 import { appRoutes } from './routes/app.routes';
+import { setup } from 'config/config';
 
 const PORT = process.env.PORT || 3000;
 
@@ -12,7 +16,7 @@ class ExpressApp {
 
   constructor() {
     this.app = express();
-
+    setup;
   }
 
   private _init() {
