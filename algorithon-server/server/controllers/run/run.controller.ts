@@ -1,4 +1,4 @@
-import { LanguagesTable } from '../../util/languages/languages.util';
+import { LanguagesTable } from '../../util/languages/languages-table.util';
 import * as _ from 'lodash';
 import * as request from 'request';
 
