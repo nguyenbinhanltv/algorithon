@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 //Controller
-import { getLanguages } from '../../controllers/languages/langs.controller';
+import { runCompiler } from '../../controllers/run/run.controller';
 
 class RunRoutes {
   public routes: Router;
@@ -12,7 +12,7 @@ class RunRoutes {
   }
 
   private _init() {
-    this.routes.get('/', getLanguages);
+    this.routes.post('/', runCompiler);
   }
 }
 
