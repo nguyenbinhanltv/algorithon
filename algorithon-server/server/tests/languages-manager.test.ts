@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import { LanguagesManager } from "../util/languages/languages-manager";
-import { LanguagesTable } from "../util/languages/languages-table";
+import { LanguagesManager } from "../utils/languages/languages-manager";
+import { LanguagesTable } from "../utils/languages/languages-table";
 
 describe("LanguagesManager class.", function () {
   it("getLanguagesTable() should return a map of languagesTable.", function () {

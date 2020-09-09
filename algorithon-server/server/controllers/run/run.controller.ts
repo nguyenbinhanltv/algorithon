@@ -1,5 +1,5 @@
-import { LanguagesManager } from "../../util/languages/languages-manager";
-import { RequestHandler } from "../../util/jdoodle-request-handler/request-handler";
+import { LanguagesManager } from "../../utils/languages/languages-manager";
+import { RequestHandler } from "../../utils/jdoodle-request-handler/request-handler";
 
 import * as _ from "lodash";
 

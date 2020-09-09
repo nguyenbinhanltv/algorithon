@@ -1,5 +1,5 @@
 import { app } from "../server";
-import { LanguageTable, LanguagesTable } from "../util/languages/languages-table";
+import { LanguageTable, LanguagesTable } from "../utils/languages/languages-table";
 import { expect } from "chai";
 import * as request from "supertest";
 

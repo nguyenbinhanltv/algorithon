@@ -1,4 +1,4 @@
-import { LanguagesTable } from "../../util/languages/languages-table";
+import { LanguagesTable } from "../../utils/languages/languages-table";
 
 export const getLanguages = (req, res) => {
   console.log("GET: '/langs'");
